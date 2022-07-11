@@ -705,22 +705,29 @@ img {
 }
 
 .footer-social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   width: 48px;
   height: 40px;
 }
 
-.footer-social-link:nth-child(1) {
+.footer-social-vk {
+  background-image: url("../images/icons-footer/social-vk.svg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: 24px 14px;
 }
 
-.footer-social-link:nth-child(21) {
+.footer-social-telegram {
+  background-image: url("../images/icons-footer/social-tg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: 18px 16px;
 }
 
-.footer-social-link:nth-child(3) {
+.footer-social-youtube {
+  background-image: url("../images/icons-footer/social-yt.svg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: 22px 17px;
 }
 
