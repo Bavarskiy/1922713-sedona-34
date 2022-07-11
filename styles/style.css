@@ -769,13 +769,31 @@ img {
 
 /*footer состояния*/
 
-.footer-social-link:hover path,
-.footer-social-link:focus path {
-  fill: #68A2CA;
+.footer-social-vk:hover,
+.footer-social-vk:focus {
+  background-image: url("../images/icons-footer/social-vk-hover-focus.svg");
 }
 
-.footer-social-link:active path {
-  fill: rgba(104, 162, 202, 0.3);
+.footer-social-vk:active {
+  background-image: url("../images/icons-footer/social-vk-active.svg");
+}
+
+.footer-social-telegram:hover,
+.footer-social-telegram:focus {
+  background-image: url("../images/icons-footer/social-tg-hover-focus.svg");
+}
+
+.footer-social-telegram:active {
+  background-image: url("../images/icons-footer/social-tg-active.svg");
+}
+
+.footer-social-youtube:hover,
+.footer-social-youtube:focus {
+  background-image: url("../images/icons-footer/social-yt-hover-focus.svg");
+}
+
+.footer-social-youtube:active {
+  background-image: url("../images/icons-footer/social-yt-active.svg");
 }
 
 .footer-contacts-address-phone:hover,
