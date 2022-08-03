@@ -238,7 +238,7 @@ img {
 
 .reset-button:active {
   opacity: 0.3;
-  border: none;
+  border: 3px solid transparent;
 }
 
 .button-disabled {
