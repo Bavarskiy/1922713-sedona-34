@@ -633,15 +633,15 @@ img {
   grid-template-columns: auto auto;
   justify-content: center;
   align-items: start;
-  margin: 0;
+  margin: 0 0 94px 0;
   padding: 0;
 }
 
 .newsletter-field {
   width: 600px;
   min-height: 60px;
+  height: 100%;
   margin: 0;
-  margin-bottom: 94px;
   padding: 0 22px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
